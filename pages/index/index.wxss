@@ -1,0 +1,39 @@
+/**index.wxss**/
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+swiper {
+  height: 800rpx;
+}
+swiper-item {
+  height: 100%;
+}
+.move-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.move-title {
+  font-size: 32rpx;
+  text-align: center;
+}
+.move-item {
+  padding: 10rpx;
+  width: 30%;
+  text-align: center;
+}
+.move-item image {
+  width: 100%;
+  height: 300rpx;
+}
+.move-item text {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

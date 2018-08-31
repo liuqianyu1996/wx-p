@@ -1,0 +1,4 @@
+<view class='title'>
+  <text>top250 排行榜</text>
+</view>
+<move-list searchVal="{{searchVal}}"></move-list>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "move-list": "/components/moveList/moveList"
+  }
+}

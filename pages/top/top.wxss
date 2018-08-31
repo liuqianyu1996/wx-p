@@ -1,0 +1,11 @@
+.title {
+  width: 100%;
+  height: 100rpx;
+  font-size: 38rpx;
+  color: darkseagreen;
+  text-align: center;
+  font-weight: 600;
+}
+.title text {
+  line-height: 100rpx;
+}

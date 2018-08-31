@@ -1,0 +1,16 @@
+<view class="move-list">
+  <view class="move-item" wx:for="{{searchVal}}">
+    <view class='move-img'>
+      <image src="{{item.images.large}}"></image>
+    </view>
+    <view class="mobe-berif">
+    <view>
+      <view>片名：<text>{{item.title}}</text></view>
+      <view>类型：<text wx:for="{{item.genres}}">{{item}}</text></view>
+      <view>主演：<text wx:for="{{item.casts}}">{{item.name}}</text></view>
+      <view>导演：<text wx:for="{{item.directors}}">{{item.name}}</text></view>
+    </view>
+     
+    </view>
+  </view>
+</view>

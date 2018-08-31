@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/top/top"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "backgroundColor": "#fff",
+    "color": "#666",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"image/all（1）.png",
+      "selectedIconPath": "image/all.png"
+    },{
+      "pagePath": "pages/top/top",
+      "text": "影片排行榜",
+      "iconPath": "image/1.png",
+      "selectedIconPath": "image/2.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "查询",
+      "iconPath": "image/search.png",
+      "selectedIconPath": "image/search (1).png"
+    }]
+  }
+}

@@ -1,0 +1,24 @@
+<view class="move-container">
+  <view class="move-img">
+    <image src="{{move.images.large}}"></image>
+  </view>
+  <view class="move-berif">
+    <view>
+      年份：<text>{{move.year}}</text>
+    </view>
+    <text>影片名称：{{move.title}}</text>
+    <view>
+      影片类型：<text wx:for="{{move.genres}}">{{item}} </text>
+    </view>
+    <text>影片简介：{{move.summary}}</text>
+  </view>
+</view>
+<view>
+  <view class="move-title">影人简介</view>
+  <view class="move-list">
+    <view wx:for="{{move.casts}}" class="move-item">
+      <image src="{{item.avatars.large}}"></image>
+      <text>主演-{{item.name}}</text>
+    </view>
+  </view>
+</view>

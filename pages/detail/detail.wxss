@@ -1,0 +1,45 @@
+page {
+  font-size: 28rpx;
+}
+.move-container {
+}
+.move-img {
+  background-color: #ccc;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.move-img image {
+  width: 50%;
+}
+.move-berif {
+  padding: 5px;
+}
+.move-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.move-title {
+  font-size: 32rpx;
+  text-align: center;
+}
+.move-item {
+  padding: 10rpx;
+  width: 30%;
+  text-align: center;
+}
+.move-item image {
+  width: 100%;
+  height: 300rpx;
+}
+.move-item text {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

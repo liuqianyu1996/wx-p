@@ -1,0 +1,19 @@
+<swiper indicator-dots="true"
+  autoplay="true" interval="2000" duration="500">
+  <block wx:for="{{move}}">
+    <swiper-item style="height:400px;background:url({{item.images.large}});                     background-repeat:no-repeat;background-size:100% 100%;" 
+      wx-if="{{item.images}}">
+    </swiper-item>
+  </block>
+</swiper>
+<view style="text-align:center">
+  <text class="move-title">近期热映</text>
+</view>
+<view class="move-list">
+    <view wx:for="{{move}}" class="move-item">
+    <navigator url="../../pages/detail/detail?id={{item.id}}">
+        <image src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+    </navigator>
+    </view> 
+</view>

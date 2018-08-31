@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="search-bar">
+  <view class='input-view'>
+    <input placeholder="请输入影片名称" focus="{{focus}}" cursor="{{cursorPos}}"
+    id="search-input" bindconfirm="bindinput"></input>
+    <view class='search-icon'>
+      <image src="../../image/search.png" mode="aspectFit"></image>
+    </view>
+  </view>
+</view>
+<move-list searchVal="{{searchVal}}"></move-list>
